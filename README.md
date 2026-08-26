@@ -1,1 +1,20 @@
-# OrangeChallenge
+Step 1: 
+	Use the pluto script to obtain the graph G at time period 0 from the json file
+
+Step 2: 
+	Read the file calculating_r.pdf to calculate r[i,j,a,0]
+  
+Step 3: 
+	Create une section Data that calculates the parameters of the model from the 3 json files : 
+	r(i,j,a,0] and c(a) from the net file, v(d,0) from the tm file, MaxSeg from the scenario file
+  
+Step 4: 
+	Implement the model only for the time period 0, so there is no budget constraints (constraint (4))
+Step 5: 
+	Perform numerical experiments for the SetA instances for only time period 0, set a time limit of 
+	15 minutes = 900 seconds. Report the numerical results on Tables with the following informations : number of vertices,
+	number of links, number of demands, Optimal or Best objective value, CPU time (time of execution of the optimize! call only), status (Optimal, Not Optimal, Infeasible), 
+	if not Optimal, report the gap=1.0- (Best known lower bound)/value best known solution.
+	if not Optimal, report the gap=1.0 - (Best known lower bound)/value best known solution.
+ 
+ 
