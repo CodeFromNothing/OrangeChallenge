@@ -18,6 +18,7 @@ Step 5:
 	if not Optimal, report the gap=1.0- (Best known lower bound)/value best known solution.
 
 Step 6: Create the graph at time period 1 and calculate the parameters for this time period
+
 Step 7:	Extend the model to include the time period 1 with the addition of the Budget constraints.
 
 Step 8 : Perform numerical experiments for the SetA instances for only time period 0, set a time limit of 
